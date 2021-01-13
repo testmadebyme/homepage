@@ -878,29 +878,3 @@ fieldset {
         margin-bottom: 20px;
     }
 }
-
-
-
-.collapsible {
-    background-color: rgba(250, 250, 250, 0.15);
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 95%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
